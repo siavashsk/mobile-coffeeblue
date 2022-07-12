@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "kalameh";
+  src: url("./Assets/Fonts/kalameh/KalamehBlack.eot"),
+  url("./Assets/Fonts/kalameh/KalamehBlack.woff") format("woff"),
+  url("./Assets/Fonts/kalameh/KalamehBlack.ttf") format("ttf"),
+  url("./Assets/Fonts/kalameh/KalamehBlack.woff2") format("woff2"),
+  url("./Assets/Fonts/kalameh/KalamehBold.eot") format("eot"),
+  url("./Assets/Fonts/kalameh/KalamehBold.ttf") format("ttf"),
+  url("./Assets/Fonts/kalameh/KalamehBold.woff") format("woff"),
+  url("./Assets/Fonts/kalameh/KalamehBold.woff2") format("woff2"),
+  url("./Assets/Fonts/kalameh/KalamehRegular.eot") format("eot"),
+  url("./Assets/Fonts/kalameh/KalamehRegular.ttf") format("ttf"),
+  url("./Assets/Fonts/kalameh/KalamehRegular.woff") format("woff"),
+  url("./Assets/Fonts/kalameh/KalamehRegular.woff2") format("woff2");
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'kalameh';
+}

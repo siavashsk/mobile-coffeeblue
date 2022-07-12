@@ -1,0 +1,66 @@
+.menuStyle{
+  padding: 0.2rem 2rem;
+  padding-bottom: 5.4rem;
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 30%;
+}
+
+.categories {
+  display: flex;
+  height: 110px;
+  background-color: #1c95bb;
+  overflow: hidden;
+  overflow-x: scroll;
+  padding-top: 0.5rem;
+  border-bottom: 4px solid #000;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.7rem;
+}
+.categoryImg {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.categoryImg .img {
+  width: 45px;
+  height: 45px;
+}
+
+.itemTitle {
+  padding-top: 7px;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.categoryImg:active {
+  border: 2px solid #000;
+}
+
+.spersoTitles{
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+  margin: 0.4rem 0;
+}
+.spersoTitle{
+  margin-right: 1rem;
+}
+
+.paragraph{
+  margin-top: 1rem;
+  text-align: right;
+}

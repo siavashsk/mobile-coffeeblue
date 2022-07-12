@@ -1,0 +1,40 @@
+.coffeeBox {
+  margin: 0.4rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: #0d4d66;
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+.coffeeName {
+  text-align: right;
+  white-space: normal;
+  font-size: 17px;
+  color: #ebebeb;
+}
+.coffeePrices {
+  width: 80%;
+  font-size: 18px;
+  display: flex;
+  color: #ebebeb;
+}
+.coffeePrice {
+  width: 50px;
+  text-align: center;
+  margin-right: 9px;
+}
+
+.modal {
+  position: absolute;
+  top: 25%;
+  width: 70% !important;
+  height: 44%;
+  border-radius: 10px;
+}
+.modalImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
